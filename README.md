@@ -19,3 +19,6 @@
    UINavigationController * nav = [self navigationController];
     
     self.popAnimationViewController = [[PopAnimationViewController alloc] initWithNavigationController:nav];
+
+
+![](https://github.com/sidetlw/popBackGestureController/blob/master/shot/PopAnimationViewController.gif)

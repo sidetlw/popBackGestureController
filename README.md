@@ -10,8 +10,7 @@
 
 
 ###Objective C用法：
-在navigationController的root viewController的类文件中导入头文件：
-#import "PopAnimationViewController.h"
+在navigationController的root viewController的类文件中导入头文件：    #import "PopAnimationViewController.h"
 在root viewController的类扩展中加入属性：
 @property (nonatomic) PopAnimationViewController *popAnimationViewController;
 

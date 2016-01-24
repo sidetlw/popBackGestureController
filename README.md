@@ -16,6 +16,6 @@
 @property (nonatomic) PopAnimationViewController *popAnimationViewController;
 
 在viewdidload中加入：
-UINavigationController * nav = [self navigationController];
+   UINavigationController * nav = [self navigationController];
     
     self.popAnimationViewController = [[PopAnimationViewController alloc] initWithNavigationController:nav];

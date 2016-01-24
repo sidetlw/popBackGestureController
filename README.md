@@ -17,4 +17,5 @@
 
 在viewdidload中加入：
 UINavigationController * nav = [self navigationController];
+    
     self.popAnimationViewController = [[PopAnimationViewController alloc] initWithNavigationController:nav];

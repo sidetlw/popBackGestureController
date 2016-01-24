@@ -6,6 +6,7 @@
    然后在navigationController的root viewController的类文件中加入如下一行代码即可：  
 
  let nav = self.navigationController
+ 
  var popAnimationVC = PopAnimationViewController(navigationController: nav);
 
 
